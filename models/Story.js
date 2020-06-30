@@ -1,10 +1,10 @@
 const mongoose = require('mongoose')
 
 const StorySchema = new mongoose.Schema({
-    tittle:{
+    title:{
         type: String,
         required: true,
-        trim:true
+        trim: true
     },
 
     body:{
