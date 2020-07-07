@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
-    "dev":"cross-env NODE_ENV=development nodemon app"
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "Helar Duran",
   "license": "ISC",
@@ -20,7 +20,8 @@
     "mongoose": "^5.9.20",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
